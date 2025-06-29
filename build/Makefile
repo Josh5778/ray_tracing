@@ -113,22 +113,45 @@ preinstall/fast:
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -P /home/josh/ray_tracing/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named raytracer
+# Target rules for targets named inOneWeekend
 
 # Build rule for target.
-raytracer: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 raytracer
-.PHONY : raytracer
+inOneWeekend: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 inOneWeekend
+.PHONY : inOneWeekend
 
 # fast build rule for target.
-raytracer/fast:
-	$(MAKE) $(MAKESILENT) -f src/in_one_weekend/CMakeFiles/raytracer.dir/build.make src/in_one_weekend/CMakeFiles/raytracer.dir/build
-.PHONY : raytracer/fast
+inOneWeekend/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inOneWeekend.dir/build.make CMakeFiles/inOneWeekend.dir/build
+.PHONY : inOneWeekend/fast
+
+src/InOneWeekend/main.o: src/InOneWeekend/main.cc.o
+.PHONY : src/InOneWeekend/main.o
+
+# target to build an object file
+src/InOneWeekend/main.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inOneWeekend.dir/build.make CMakeFiles/inOneWeekend.dir/src/InOneWeekend/main.cc.o
+.PHONY : src/InOneWeekend/main.cc.o
+
+src/InOneWeekend/main.i: src/InOneWeekend/main.cc.i
+.PHONY : src/InOneWeekend/main.i
+
+# target to preprocess a source file
+src/InOneWeekend/main.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inOneWeekend.dir/build.make CMakeFiles/inOneWeekend.dir/src/InOneWeekend/main.cc.i
+.PHONY : src/InOneWeekend/main.cc.i
+
+src/InOneWeekend/main.s: src/InOneWeekend/main.cc.s
+.PHONY : src/InOneWeekend/main.s
+
+# target to generate assembly for a file
+src/InOneWeekend/main.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inOneWeekend.dir/build.make CMakeFiles/inOneWeekend.dir/src/InOneWeekend/main.cc.s
+.PHONY : src/InOneWeekend/main.cc.s
 
 # Help Target
 help:
@@ -138,7 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... raytracer"
+	@echo "... inOneWeekend"
+	@echo "... src/InOneWeekend/main.o"
+	@echo "... src/InOneWeekend/main.i"
+	@echo "... src/InOneWeekend/main.s"
 .PHONY : help
 
 
@@ -150,7 +176,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P /home/josh/ray_tracing/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

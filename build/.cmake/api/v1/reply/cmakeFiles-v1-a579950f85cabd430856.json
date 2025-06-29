@@ -86,9 +86,6 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "/usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake"
-		},
-		{
-			"path" : "src/in_one_weekend/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

@@ -6,28 +6,13 @@
 			[
 				{
 					"build" : ".",
-					"childIndexes" : 
-					[
-						1
-					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.15"
+						"string" : "3.1.0"
 					},
 					"projectIndex" : 0,
-					"source" : "."
-				},
-				{
-					"build" : "src/in_one_weekend",
-					"jsonFile" : "directory-src.in_one_weekend-Debug-fa90657c80e7084fdf8b.json",
-					"minimumCMakeVersion" : 
-					{
-						"string" : "3.15"
-					},
-					"parentIndex" : 0,
-					"projectIndex" : 0,
-					"source" : "src/in_one_weekend",
+					"source" : ".",
 					"targetIndexes" : 
 					[
 						0
@@ -40,10 +25,9 @@
 				{
 					"directoryIndexes" : 
 					[
-						0,
-						1
+						0
 					],
-					"name" : "RayTracer",
+					"name" : "RTWeekend",
 					"targetIndexes" : 
 					[
 						0
@@ -53,10 +37,10 @@
 			"targets" : 
 			[
 				{
-					"directoryIndex" : 1,
-					"id" : "raytracer::@473659c18be01ae00bfd",
-					"jsonFile" : "target-raytracer-Debug-005e3b5aa60d2dcc6fbd.json",
-					"name" : "raytracer",
+					"directoryIndex" : 0,
+					"id" : "inOneWeekend::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-inOneWeekend-Debug-cbc1b582b8d55672e10b.json",
+					"name" : "inOneWeekend",
 					"projectIndex" : 0
 				}
 			]

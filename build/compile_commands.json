@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/josh/ray_tracing/build",
+  "command": "/usr/bin/g++  -I/home/josh/ray_tracing/src -g -std=c++11 -Wnon-virtual-dtor -Wreorder -Wmaybe-uninitialized -Wunused-variable -o CMakeFiles/inOneWeekend.dir/src/InOneWeekend/main.cc.o -c /home/josh/ray_tracing/src/InOneWeekend/main.cc",
+  "file": "/home/josh/ray_tracing/src/InOneWeekend/main.cc",
+  "output": "CMakeFiles/inOneWeekend.dir/src/InOneWeekend/main.cc.o"
+}
+]
