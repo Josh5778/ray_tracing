@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/raytracer.dir/main.cc.o -o /home/josh/ray_tracing/outputs/raytracer 
