@@ -3,6 +3,7 @@
 
 CMakeFiles/inOneWeekend.dir/src/InOneWeekend/main.cc.o: /home/josh/ray_tracing/src/InOneWeekend/main.cc \
   /home/josh/ray_tracing/src/InOneWeekend/color.h \
+  /home/josh/ray_tracing/src/InOneWeekend/ray.h \
   /home/josh/ray_tracing/src/InOneWeekend/vec3.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -299,10 +300,6 @@ CMakeFiles/inOneWeekend.dir/src/InOneWeekend/main.cc.o: /home/josh/ray_tracing/s
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
-/usr/include/c++/13/bits/locale_classes.tcc:
-
-/usr/include/c++/13/bits/allocator.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
 /usr/include/c++/13/bits/char_traits.h:
@@ -326,6 +323,10 @@ CMakeFiles/inOneWeekend.dir/src/InOneWeekend/main.cc.o: /home/josh/ray_tracing/s
 /usr/include/c++/13/bits/ios_base.h:
 
 /usr/include/features.h:
+
+/usr/include/c++/13/bits/allocator.h:
+
+/usr/include/c++/13/bits/locale_classes.tcc:
 
 /usr/include/c++/13/backward/binders.h:
 
@@ -359,13 +360,19 @@ CMakeFiles/inOneWeekend.dir/src/InOneWeekend/main.cc.o: /home/josh/ray_tracing/s
 
 /usr/include/c++/13/bits/basic_string.tcc:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
+/home/josh/ray_tracing/src/InOneWeekend/ray.h:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
-/usr/include/c++/13/bits/ptr_traits.h:
+/usr/include/x86_64-linux-gnu/asm/errno.h:
 
-/home/josh/ray_tracing/src/InOneWeekend/vec3.h:
+/usr/include/c++/13/bits/istream.tcc:
+
+/usr/include/c++/13/bits/exception_ptr.h:
+
+/usr/include/ctype.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
 /usr/include/c++/13/bits/stl_iterator_base_types.h:
 
@@ -383,6 +390,14 @@ CMakeFiles/inOneWeekend.dir/src/InOneWeekend/main.cc.o: /home/josh/ray_tracing/s
 
 /usr/include/c++/13/type_traits:
 
+/home/josh/ray_tracing/src/InOneWeekend/vec3.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
+
+/usr/include/c++/13/bits/ptr_traits.h:
+
 /usr/include/c++/13/bits/cxxabi_forced.h:
 
 /usr/include/c++/13/bits/requires_hosted.h:
@@ -399,17 +414,11 @@ CMakeFiles/inOneWeekend.dir/src/InOneWeekend/main.cc.o: /home/josh/ray_tracing/s
 
 /usr/include/c++/13/bits/cpp_type_traits.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
-
-/usr/include/c++/13/cerrno:
-
-/usr/include/stdio.h:
-
 /usr/include/c++/13/string:
 
-/usr/include/c++/13/bits/istream.tcc:
+/usr/include/c++/13/bits/locale_classes.h:
 
-/usr/include/c++/13/bits/exception_ptr.h:
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
 /usr/include/c++/13/bits/concept_check.h:
 
@@ -427,13 +436,11 @@ CMakeFiles/inOneWeekend.dir/src/InOneWeekend/main.cc.o: /home/josh/ray_tracing/s
 
 /usr/include/c++/13/bits/invoke.h:
 
-/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
-/usr/include/c++/13/bits/locale_classes.h:
+/usr/include/c++/13/cerrno:
 
-/usr/include/ctype.h:
-
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+/usr/include/stdio.h:
 
 /usr/include/c++/13/clocale:
 
@@ -522,10 +529,6 @@ CMakeFiles/inOneWeekend.dir/src/InOneWeekend/main.cc.o: /home/josh/ray_tracing/s
 /usr/include/sched.h:
 
 /usr/include/stdlib.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-/usr/include/x86_64-linux-gnu/asm/errno.h:
 
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 

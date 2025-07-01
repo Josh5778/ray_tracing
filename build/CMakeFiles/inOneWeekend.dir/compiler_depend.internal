@@ -4,6 +4,7 @@
 CMakeFiles/inOneWeekend.dir/src/InOneWeekend/main.cc.o
  /home/josh/ray_tracing/src/InOneWeekend/main.cc
  /home/josh/ray_tracing/src/InOneWeekend/color.h
+ /home/josh/ray_tracing/src/InOneWeekend/ray.h
  /home/josh/ray_tracing/src/InOneWeekend/vec3.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
