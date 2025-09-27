@@ -1,8 +1,6 @@
 #ifndef VEC3_H // makes complier check whether a macro is not defined and if not it executes code unti #endif
 #define VEC3_H
 
-#include <cmath>
-#include <iostream>
 #include <ostream>
 
 class vec3 {
