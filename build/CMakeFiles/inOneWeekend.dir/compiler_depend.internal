@@ -8,6 +8,7 @@ CMakeFiles/inOneWeekend.dir/src/InOneWeekend/main.cc.o
  /home/josh/ray_tracing/src/InOneWeekend/hittable.h
  /home/josh/ray_tracing/src/InOneWeekend/hittable_list.h
  /home/josh/ray_tracing/src/InOneWeekend/interval.h
+ /home/josh/ray_tracing/src/InOneWeekend/material.h
  /home/josh/ray_tracing/src/InOneWeekend/ray.h
  /home/josh/ray_tracing/src/InOneWeekend/rtweekend.h
  /home/josh/ray_tracing/src/InOneWeekend/sphere.h

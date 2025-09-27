@@ -7,6 +7,7 @@ CMakeFiles/inOneWeekend.dir/src/InOneWeekend/main.cc.o: /home/josh/ray_tracing/s
   /home/josh/ray_tracing/src/InOneWeekend/hittable.h \
   /home/josh/ray_tracing/src/InOneWeekend/hittable_list.h \
   /home/josh/ray_tracing/src/InOneWeekend/interval.h \
+  /home/josh/ray_tracing/src/InOneWeekend/material.h \
   /home/josh/ray_tracing/src/InOneWeekend/ray.h \
   /home/josh/ray_tracing/src/InOneWeekend/rtweekend.h \
   /home/josh/ray_tracing/src/InOneWeekend/sphere.h \
@@ -325,21 +326,17 @@ CMakeFiles/inOneWeekend.dir/src/InOneWeekend/main.cc.o: /home/josh/ray_tracing/s
 
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
-/usr/include/wchar.h:
-
 /usr/include/stdlib.h:
 
 /usr/include/stdio.h:
 
 /usr/include/stdint.h:
 
+/usr/include/stdc-predef.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
 /usr/include/c++/13/bits/refwrap.h:
-
-/usr/include/c++/13/debug/debug.h:
-
-/usr/include/c++/13/stdexcept:
 
 /usr/include/c++/13/bits/ostream_insert.h:
 
@@ -358,10 +355,6 @@ CMakeFiles/inOneWeekend.dir/src/InOneWeekend/main.cc.o: /home/josh/ray_tracing/s
 /usr/include/c++/13/bits/hash_bytes.h:
 
 /usr/include/asm-generic/errno-base.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
-
-/usr/include/c++/13/bits/shared_ptr.h:
 
 /usr/include/c++/13/bits/nested_exception.h:
 
@@ -397,6 +390,12 @@ CMakeFiles/inOneWeekend.dir/src/InOneWeekend/main.cc.o: /home/josh/ray_tracing/s
 
 /home/josh/ray_tracing/src/InOneWeekend/camera.h:
 
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/c++/13/bits/atomic_base.h:
+
+/usr/include/c++/13/bits/new_allocator.h:
+
 /usr/include/c++/13/cwctype:
 
 /usr/include/c++/13/bits/predefined_ops.h:
@@ -427,6 +426,14 @@ CMakeFiles/inOneWeekend.dir/src/InOneWeekend/main.cc.o: /home/josh/ray_tracing/s
 
 /home/josh/ray_tracing/src/InOneWeekend/interval.h:
 
+/usr/include/wchar.h:
+
+/home/josh/ray_tracing/src/InOneWeekend/material.h:
+
+/usr/include/c++/13/debug/debug.h:
+
+/usr/include/c++/13/stdexcept:
+
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
 /usr/include/c++/13/bits/basic_ios.h:
@@ -441,15 +448,13 @@ CMakeFiles/inOneWeekend.dir/src/InOneWeekend/main.cc.o: /home/josh/ray_tracing/s
 
 /usr/include/c++/13/bits/stl_iterator_base_types.h:
 
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/usr/include/locale.h:
-
-/usr/include/c++/13/ext/aligned_buffer.h:
-
 /home/josh/ray_tracing/src/InOneWeekend/sphere.h:
 
 /usr/include/c++/13/ios:
+
+/usr/include/c++/13/bits/concept_check.h:
+
+/usr/include/c++/13/bits/alloc_traits.h:
 
 /usr/include/x86_64-linux-gnu/bits/sched.h:
 
@@ -487,16 +492,6 @@ CMakeFiles/inOneWeekend.dir/src/InOneWeekend/main.cc.o: /home/josh/ray_tracing/s
 
 /usr/include/c++/13/bits/atomic_lockfree_defines.h:
 
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
-
-/usr/include/c++/13/bits/new_allocator.h:
-
-/usr/include/c++/13/bits/atomic_base.h:
-
-/usr/include/c++/13/bits/alloc_traits.h:
-
-/usr/include/c++/13/bits/concept_check.h:
-
 /usr/include/c++/13/bits/locale_facets.tcc:
 
 /usr/include/c++/13/bits/requires_hosted.h:
@@ -513,7 +508,15 @@ CMakeFiles/inOneWeekend.dir/src/InOneWeekend/main.cc.o: /home/josh/ray_tracing/s
 
 /usr/include/c++/13/bits/basic_string.h:
 
-/usr/include/stdc-predef.h:
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/usr/include/c++/13/bits/shared_ptr.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/usr/include/c++/13/ext/aligned_buffer.h:
+
+/usr/include/locale.h:
 
 /usr/include/c++/13/bits/shared_ptr_atomic.h:
 
