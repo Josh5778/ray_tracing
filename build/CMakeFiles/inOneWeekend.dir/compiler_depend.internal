@@ -3,6 +3,7 @@
 
 CMakeFiles/inOneWeekend.dir/src/InOneWeekend/main.cc.o
  /home/josh/ray_tracing/src/InOneWeekend/main.cc
+ /home/josh/ray_tracing/src/InOneWeekend/aabb.h
  /home/josh/ray_tracing/src/InOneWeekend/camera.h
  /home/josh/ray_tracing/src/InOneWeekend/color.h
  /home/josh/ray_tracing/src/InOneWeekend/hittable.h
