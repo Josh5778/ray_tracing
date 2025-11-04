@@ -23,7 +23,7 @@ set ( EXTERNAL
 )
 
 set ( SOURCE_ONE_WEEKEND
-  src/InOneWeekend/main.cc
+  src/TheNextWeek/main.cc
 )
 
 
@@ -57,4 +57,4 @@ elseif (CMAKE_CXX_COMPILER_ID MATCHES "Clang")
 endif()
 
 # Executables
-add_executable(inOneWeekend      ${EXTERNAL} ${SOURCE_ONE_WEEKEND})
+add_executable(TheNextWeek      ${EXTERNAL} ${SOURCE_ONE_WEEKEND})

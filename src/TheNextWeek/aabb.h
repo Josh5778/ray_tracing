@@ -7,6 +7,9 @@ class aabb {
 
   aabb() {}  // empty by default
 
+  aabb(const interval& ix, const interval& iy, const interval& iz)
+      : x(ix), y(iy), z(iz) {}
+
   aabb(const point3& a, const point3& b) {
     // treat a and b as extrema for bounding box so we dont need min max order
 
@@ -50,6 +53,22 @@ class aabb {
     }
     return true;
   }
+
+  int longest_axis() const {
+    // returns index of the longest axis of the bounding box
+
+    if (x.size() > y.size())
+      return x.size() > z.size() ? 0 : 2;
+    else
+      return y.size() > z.size() ? 1 : 2;
+  }
+
+  static const aabb empty, universe;
 };
+
+const aabb aabb::empty =
+    aabb(interval::empty, interval::empty, interval::empty);
+const aabb aabb::universe =
+    aabb(interval::universe, interval::universe, interval::universe);
 
 #endif

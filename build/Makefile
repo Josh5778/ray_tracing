@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named inOneWeekend
+# Target rules for targets named TheNextWeek
 
 # Build rule for target.
-inOneWeekend: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 inOneWeekend
-.PHONY : inOneWeekend
+TheNextWeek: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TheNextWeek
+.PHONY : TheNextWeek
 
 # fast build rule for target.
-inOneWeekend/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/inOneWeekend.dir/build.make CMakeFiles/inOneWeekend.dir/build
-.PHONY : inOneWeekend/fast
+TheNextWeek/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TheNextWeek.dir/build.make CMakeFiles/TheNextWeek.dir/build
+.PHONY : TheNextWeek/fast
 
-src/InOneWeekend/main.o: src/InOneWeekend/main.cc.o
-.PHONY : src/InOneWeekend/main.o
+src/TheNextWeek/main.o: src/TheNextWeek/main.cc.o
+.PHONY : src/TheNextWeek/main.o
 
 # target to build an object file
-src/InOneWeekend/main.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/inOneWeekend.dir/build.make CMakeFiles/inOneWeekend.dir/src/InOneWeekend/main.cc.o
-.PHONY : src/InOneWeekend/main.cc.o
+src/TheNextWeek/main.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TheNextWeek.dir/build.make CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o
+.PHONY : src/TheNextWeek/main.cc.o
 
-src/InOneWeekend/main.i: src/InOneWeekend/main.cc.i
-.PHONY : src/InOneWeekend/main.i
+src/TheNextWeek/main.i: src/TheNextWeek/main.cc.i
+.PHONY : src/TheNextWeek/main.i
 
 # target to preprocess a source file
-src/InOneWeekend/main.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/inOneWeekend.dir/build.make CMakeFiles/inOneWeekend.dir/src/InOneWeekend/main.cc.i
-.PHONY : src/InOneWeekend/main.cc.i
+src/TheNextWeek/main.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TheNextWeek.dir/build.make CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.i
+.PHONY : src/TheNextWeek/main.cc.i
 
-src/InOneWeekend/main.s: src/InOneWeekend/main.cc.s
-.PHONY : src/InOneWeekend/main.s
+src/TheNextWeek/main.s: src/TheNextWeek/main.cc.s
+.PHONY : src/TheNextWeek/main.s
 
 # target to generate assembly for a file
-src/InOneWeekend/main.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/inOneWeekend.dir/build.make CMakeFiles/inOneWeekend.dir/src/InOneWeekend/main.cc.s
-.PHONY : src/InOneWeekend/main.cc.s
+src/TheNextWeek/main.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TheNextWeek.dir/build.make CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.s
+.PHONY : src/TheNextWeek/main.cc.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... inOneWeekend"
-	@echo "... src/InOneWeekend/main.o"
-	@echo "... src/InOneWeekend/main.i"
-	@echo "... src/InOneWeekend/main.s"
+	@echo "... TheNextWeek"
+	@echo "... src/TheNextWeek/main.o"
+	@echo "... src/TheNextWeek/main.i"
+	@echo "... src/TheNextWeek/main.s"
 .PHONY : help
 
 

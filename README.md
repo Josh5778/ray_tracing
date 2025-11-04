@@ -7,7 +7,7 @@ Source Code(Answers): https://github.com/RayTracing/raytracing.github.io
 
 
 to build: cmake --build build --config release
-to run:  build/bin/inOneWeekend > image.ppm
+to run:  build/bin/TheNextWeek > image.ppm
 
 
 

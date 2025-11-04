@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/josh/ray_tracing/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/inOneWeekend.dir/all
+all: CMakeFiles/TheNextWeek.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/inOneWeekend.dir/clean
+clean: CMakeFiles/TheNextWeek.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/inOneWeekend.dir
+# Target rules for target CMakeFiles/TheNextWeek.dir
 
 # All Build rule for target.
-CMakeFiles/inOneWeekend.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/inOneWeekend.dir/build.make CMakeFiles/inOneWeekend.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/inOneWeekend.dir/build.make CMakeFiles/inOneWeekend.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/josh/ray_tracing/build/CMakeFiles --progress-num=1,2 "Built target inOneWeekend"
-.PHONY : CMakeFiles/inOneWeekend.dir/all
+CMakeFiles/TheNextWeek.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TheNextWeek.dir/build.make CMakeFiles/TheNextWeek.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TheNextWeek.dir/build.make CMakeFiles/TheNextWeek.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/josh/ray_tracing/build/CMakeFiles --progress-num=1,2 "Built target TheNextWeek"
+.PHONY : CMakeFiles/TheNextWeek.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/inOneWeekend.dir/rule: cmake_check_build_system
+CMakeFiles/TheNextWeek.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/josh/ray_tracing/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/inOneWeekend.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/TheNextWeek.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/josh/ray_tracing/build/CMakeFiles 0
-.PHONY : CMakeFiles/inOneWeekend.dir/rule
+.PHONY : CMakeFiles/TheNextWeek.dir/rule
 
 # Convenience name for target.
-inOneWeekend: CMakeFiles/inOneWeekend.dir/rule
-.PHONY : inOneWeekend
+TheNextWeek: CMakeFiles/TheNextWeek.dir/rule
+.PHONY : TheNextWeek
 
 # clean rule for target.
-CMakeFiles/inOneWeekend.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/inOneWeekend.dir/build.make CMakeFiles/inOneWeekend.dir/clean
-.PHONY : CMakeFiles/inOneWeekend.dir/clean
+CMakeFiles/TheNextWeek.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TheNextWeek.dir/build.make CMakeFiles/TheNextWeek.dir/clean
+.PHONY : CMakeFiles/TheNextWeek.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

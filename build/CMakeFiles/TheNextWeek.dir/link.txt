@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o -o bin/TheNextWeek 
