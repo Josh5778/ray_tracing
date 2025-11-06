@@ -12,13 +12,16 @@ CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o
  /home/josh/ray_tracing/src/TheNextWeek/interval.h
  /home/josh/ray_tracing/src/TheNextWeek/material.h
  /home/josh/ray_tracing/src/TheNextWeek/ray.h
+ /home/josh/ray_tracing/src/TheNextWeek/rtw_stb_image.h
  /home/josh/ray_tracing/src/TheNextWeek/rtweekend.h
  /home/josh/ray_tracing/src/TheNextWeek/sphere.h
  /home/josh/ray_tracing/src/TheNextWeek/texture.h
  /home/josh/ray_tracing/src/TheNextWeek/vec3.h
+ /home/josh/ray_tracing/src/external/stb_image.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
+ /usr/include/assert.h
  /usr/include/c++/13/algorithm
  /usr/include/c++/13/backward/auto_ptr.h
  /usr/include/c++/13/backward/binders.h
@@ -116,10 +119,12 @@ CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o
  /usr/include/c++/13/iostream
  /usr/include/c++/13/istream
  /usr/include/c++/13/limits
+ /usr/include/c++/13/math.h
  /usr/include/c++/13/memory
  /usr/include/c++/13/new
  /usr/include/c++/13/ostream
  /usr/include/c++/13/stdexcept
+ /usr/include/c++/13/stdlib.h
  /usr/include/c++/13/streambuf
  /usr/include/c++/13/string
  /usr/include/c++/13/system_error
@@ -141,6 +146,8 @@ CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o
  /usr/include/stdint.h
  /usr/include/stdio.h
  /usr/include/stdlib.h
+ /usr/include/string.h
+ /usr/include/strings.h
  /usr/include/time.h
  /usr/include/wchar.h
  /usr/include/wctype.h

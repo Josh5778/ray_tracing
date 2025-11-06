@@ -11,13 +11,16 @@ CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o: /home/josh/ray_tracing/src
   /home/josh/ray_tracing/src/TheNextWeek/interval.h \
   /home/josh/ray_tracing/src/TheNextWeek/material.h \
   /home/josh/ray_tracing/src/TheNextWeek/ray.h \
+  /home/josh/ray_tracing/src/TheNextWeek/rtw_stb_image.h \
   /home/josh/ray_tracing/src/TheNextWeek/rtweekend.h \
   /home/josh/ray_tracing/src/TheNextWeek/sphere.h \
   /home/josh/ray_tracing/src/TheNextWeek/texture.h \
   /home/josh/ray_tracing/src/TheNextWeek/vec3.h \
+  /home/josh/ray_tracing/src/external/stb_image.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
+  /usr/include/assert.h \
   /usr/include/c++/13/algorithm \
   /usr/include/c++/13/backward/auto_ptr.h \
   /usr/include/c++/13/backward/binders.h \
@@ -115,10 +118,12 @@ CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o: /home/josh/ray_tracing/src
   /usr/include/c++/13/iostream \
   /usr/include/c++/13/istream \
   /usr/include/c++/13/limits \
+  /usr/include/c++/13/math.h \
   /usr/include/c++/13/memory \
   /usr/include/c++/13/new \
   /usr/include/c++/13/ostream \
   /usr/include/c++/13/stdexcept \
+  /usr/include/c++/13/stdlib.h \
   /usr/include/c++/13/streambuf \
   /usr/include/c++/13/string \
   /usr/include/c++/13/system_error \
@@ -140,6 +145,8 @@ CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o: /home/josh/ray_tracing/src
   /usr/include/stdint.h \
   /usr/include/stdio.h \
   /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
   /usr/include/time.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
@@ -332,11 +339,11 @@ CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o: /home/josh/ray_tracing/src
 
 /usr/include/wchar.h:
 
+/usr/include/string.h:
+
 /usr/include/stdio.h:
 
 /usr/include/stdint.h:
-
-/usr/include/stdc-predef.h:
 
 /usr/include/sched.h:
 
@@ -348,6 +355,14 @@ CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o: /home/josh/ray_tracing/src
 
 /usr/include/features.h:
 
+/usr/include/ctype.h:
+
+/usr/include/c++/13/vector:
+
+/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+
+/usr/include/c++/13/type_traits:
+
 /usr/include/time.h:
 
 /usr/include/c++/13/bits/memoryfwd.h:
@@ -358,13 +373,9 @@ CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o: /home/josh/ray_tracing/src
 
 /usr/include/c++/13/bits/locale_classes.h:
 
-/usr/include/ctype.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
 /usr/include/c++/13/bits/char_traits.h:
-
-/usr/include/c++/13/bits/ostream.tcc:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
 
@@ -387,6 +398,10 @@ CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o: /home/josh/ray_tracing/src
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
 /usr/include/c++/13/bits/localefwd.h:
+
+/usr/include/c++/13/typeinfo:
+
+/usr/include/c++/13/bits/cxxabi_init_exception.h:
 
 /usr/include/c++/13/bits/move.h:
 
@@ -412,25 +427,11 @@ CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o: /home/josh/ray_tracing/src
 
 /usr/include/c++/13/bit:
 
-/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
-
-/usr/include/c++/13/type_traits:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
 /usr/include/c++/13/bits/atomic_lockfree_defines.h:
-
-/usr/include/c++/13/bits/ostream_insert.h:
-
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/c++/13/bits/exception.h:
-
-/usr/include/c++/13/streambuf:
 
 /usr/include/stdlib.h:
 
@@ -442,17 +443,35 @@ CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o: /home/josh/ray_tracing/src
 
 /usr/include/c++/13/ext/aligned_buffer.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+
+/usr/include/c++/13/bits/refwrap.h:
+
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
 /home/josh/ray_tracing/src/TheNextWeek/material.h:
 
 /usr/include/c++/13/bits/shared_ptr_atomic.h:
 
+/usr/include/c++/13/bits/shared_ptr_base.h:
+
 /usr/include/c++/13/bits/nested_exception.h:
 
 /home/josh/ray_tracing/src/TheNextWeek/camera.h:
 
 /home/josh/ray_tracing/src/TheNextWeek/aabb.h:
+
+/home/josh/ray_tracing/src/TheNextWeek/ray.h:
+
+/usr/include/c++/13/bits/cxxabi_forced.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/usr/include/strings.h:
+
+/home/josh/ray_tracing/src/TheNextWeek/hittable.h:
+
+/usr/include/c++/13/backward/binders.h:
 
 /usr/include/errno.h:
 
@@ -466,15 +485,11 @@ CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o: /home/josh/ray_tracing/src
 
 /usr/include/c++/13/bits/ptr_traits.h:
 
-/home/josh/ray_tracing/src/TheNextWeek/ray.h:
+/usr/include/stdc-predef.h:
 
-/usr/include/c++/13/bits/cxxabi_forced.h:
+/home/josh/ray_tracing/src/external/stb_image.h:
 
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
-/home/josh/ray_tracing/src/TheNextWeek/hittable.h:
-
-/usr/include/c++/13/backward/binders.h:
+/usr/include/c++/13/string:
 
 /usr/include/features-time64.h:
 
@@ -498,6 +513,10 @@ CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o: /home/josh/ray_tracing/src
 
 /usr/include/c++/13/cwchar:
 
+/usr/include/assert.h:
+
+/usr/include/c++/13/backward/auto_ptr.h:
+
 /usr/include/c++/13/algorithm:
 
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
@@ -506,13 +525,15 @@ CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o: /home/josh/ray_tracing/src
 
 /usr/include/c++/13/bits/stl_raw_storage_iter.h:
 
-/usr/include/c++/13/backward/auto_ptr.h:
-
-/usr/include/c++/13/bits/shared_ptr_base.h:
-
 /usr/include/c++/13/iosfwd:
 
 /usr/include/c++/13/bits/predefined_ops.h:
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/c++/13/bits/stl_iterator.h:
+
+/usr/include/c++/13/bits/functexcept.h:
 
 /usr/include/c++/13/ios:
 
@@ -532,15 +553,21 @@ CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o: /home/josh/ray_tracing/src
 
 /usr/include/c++/13/bits/alloc_traits.h:
 
+/usr/include/c++/13/bits/ostream.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/c++/13/bits/exception.h:
+
+/usr/include/c++/13/streambuf:
+
 /usr/include/c++/13/debug/debug.h:
 
 /home/josh/ray_tracing/src/TheNextWeek/hittable_list.h:
 
 /usr/include/c++/13/stdexcept:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
-
-/usr/include/c++/13/bits/refwrap.h:
 
 /usr/include/c++/13/bits/locale_facets.tcc:
 
@@ -572,14 +599,6 @@ CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o: /home/josh/ray_tracing/src
 
 /usr/include/c++/13/new:
 
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-
-/usr/include/c++/13/bits/functexcept.h:
-
-/usr/include/c++/13/bits/stl_iterator.h:
-
-/usr/include/c++/13/string:
-
 /usr/include/asm-generic/errno.h:
 
 /usr/include/c++/13/bits/stl_iterator_base_funcs.h:
@@ -602,6 +621,10 @@ CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o: /home/josh/ray_tracing/src
 
 /usr/include/c++/13/memory:
 
+/usr/include/endian.h:
+
+/usr/include/c++/13/bits/streambuf.tcc:
+
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
 /usr/include/c++/13/bits/align.h:
@@ -609,6 +632,8 @@ CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o: /home/josh/ray_tracing/src
 /usr/include/c++/13/bits/unique_ptr.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+
+/home/josh/ray_tracing/src/TheNextWeek/rtw_stb_image.h:
 
 /usr/include/c++/13/bits/postypes.h:
 
@@ -625,6 +650,8 @@ CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o: /home/josh/ray_tracing/src
 /usr/include/c++/13/bits/stl_function.h:
 
 /usr/include/c++/13/bits/utility.h:
+
+/usr/include/c++/13/stdlib.h:
 
 /usr/include/c++/13/bits/vector.tcc:
 
@@ -686,18 +713,12 @@ CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o: /home/josh/ray_tracing/src
 
 /usr/include/c++/13/limits:
 
+/usr/include/c++/13/bits/ostream_insert.h:
+
+/usr/include/c++/13/math.h:
+
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
 /usr/include/c++/13/bits/range_access.h:
 
 /usr/include/c++/13/system_error:
-
-/usr/include/c++/13/bits/cxxabi_init_exception.h:
-
-/usr/include/c++/13/typeinfo:
-
-/usr/include/c++/13/vector:
-
-/usr/include/c++/13/bits/streambuf.tcc:
-
-/usr/include/endian.h:
