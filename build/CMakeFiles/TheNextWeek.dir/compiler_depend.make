@@ -13,6 +13,7 @@ CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o: /home/josh/ray_tracing/src
   /home/josh/ray_tracing/src/TheNextWeek/ray.h \
   /home/josh/ray_tracing/src/TheNextWeek/rtweekend.h \
   /home/josh/ray_tracing/src/TheNextWeek/sphere.h \
+  /home/josh/ray_tracing/src/TheNextWeek/texture.h \
   /home/josh/ray_tracing/src/TheNextWeek/vec3.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -453,6 +454,18 @@ CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o: /home/josh/ray_tracing/src
 
 /home/josh/ray_tracing/src/TheNextWeek/aabb.h:
 
+/usr/include/errno.h:
+
+/usr/include/c++/13/bits/functional_hash.h:
+
+/home/josh/ray_tracing/src/TheNextWeek/texture.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
+
+/usr/include/c++/13/bits/ptr_traits.h:
+
 /home/josh/ray_tracing/src/TheNextWeek/ray.h:
 
 /usr/include/c++/13/bits/cxxabi_forced.h:
@@ -483,10 +496,6 @@ CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o: /home/josh/ray_tracing/src
 
 /usr/include/c++/13/cwctype:
 
-/usr/include/c++/13/bits/predefined_ops.h:
-
-/usr/include/c++/13/iosfwd:
-
 /usr/include/c++/13/cwchar:
 
 /usr/include/c++/13/algorithm:
@@ -500,6 +509,10 @@ CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o: /home/josh/ray_tracing/src
 /usr/include/c++/13/backward/auto_ptr.h:
 
 /usr/include/c++/13/bits/shared_ptr_base.h:
+
+/usr/include/c++/13/iosfwd:
+
+/usr/include/c++/13/bits/predefined_ops.h:
 
 /usr/include/c++/13/ios:
 
@@ -518,12 +531,6 @@ CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o: /home/josh/ray_tracing/src
 /usr/include/c++/13/bits/concept_check.h:
 
 /usr/include/c++/13/bits/alloc_traits.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
-
-/usr/include/c++/13/bits/ptr_traits.h:
 
 /usr/include/c++/13/debug/debug.h:
 
@@ -652,10 +659,6 @@ CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o: /home/josh/ray_tracing/src
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
 
 /usr/include/c++/13/tuple:
-
-/usr/include/c++/13/bits/functional_hash.h:
-
-/usr/include/errno.h:
 
 /usr/include/c++/13/cctype:
 

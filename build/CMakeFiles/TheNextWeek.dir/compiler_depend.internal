@@ -14,6 +14,7 @@ CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o
  /home/josh/ray_tracing/src/TheNextWeek/ray.h
  /home/josh/ray_tracing/src/TheNextWeek/rtweekend.h
  /home/josh/ray_tracing/src/TheNextWeek/sphere.h
+ /home/josh/ray_tracing/src/TheNextWeek/texture.h
  /home/josh/ray_tracing/src/TheNextWeek/vec3.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
