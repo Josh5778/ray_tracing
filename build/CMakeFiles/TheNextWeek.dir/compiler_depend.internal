@@ -11,6 +11,7 @@ CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o
  /home/josh/ray_tracing/src/TheNextWeek/hittable_list.h
  /home/josh/ray_tracing/src/TheNextWeek/interval.h
  /home/josh/ray_tracing/src/TheNextWeek/material.h
+ /home/josh/ray_tracing/src/TheNextWeek/perlin.h
  /home/josh/ray_tracing/src/TheNextWeek/ray.h
  /home/josh/ray_tracing/src/TheNextWeek/rtw_stb_image.h
  /home/josh/ray_tracing/src/TheNextWeek/rtweekend.h
