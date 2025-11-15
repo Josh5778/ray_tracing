@@ -7,6 +7,7 @@ CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o
  /home/josh/ray_tracing/src/TheNextWeek/bvh.h
  /home/josh/ray_tracing/src/TheNextWeek/camera.h
  /home/josh/ray_tracing/src/TheNextWeek/color.h
+ /home/josh/ray_tracing/src/TheNextWeek/constant_medium.h
  /home/josh/ray_tracing/src/TheNextWeek/hittable.h
  /home/josh/ray_tracing/src/TheNextWeek/hittable_list.h
  /home/josh/ray_tracing/src/TheNextWeek/interval.h

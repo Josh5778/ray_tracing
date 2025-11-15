@@ -6,6 +6,7 @@ CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o: /home/josh/ray_tracing/src
   /home/josh/ray_tracing/src/TheNextWeek/bvh.h \
   /home/josh/ray_tracing/src/TheNextWeek/camera.h \
   /home/josh/ray_tracing/src/TheNextWeek/color.h \
+  /home/josh/ray_tracing/src/TheNextWeek/constant_medium.h \
   /home/josh/ray_tracing/src/TheNextWeek/hittable.h \
   /home/josh/ray_tracing/src/TheNextWeek/hittable_list.h \
   /home/josh/ray_tracing/src/TheNextWeek/interval.h \
@@ -397,6 +398,8 @@ CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o: /home/josh/ray_tracing/src
 
 /usr/include/c++/13/iostream:
 
+/usr/include/c++/13/ios:
+
 /usr/include/c++/13/bits/locale_classes.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
@@ -483,10 +486,6 @@ CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o: /home/josh/ray_tracing/src
 
 /usr/include/c++/13/ext/aligned_buffer.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
-
-/usr/include/c++/13/bits/refwrap.h:
-
 /usr/include/c++/13/cwchar:
 
 /home/josh/ray_tracing/src/TheNextWeek/interval.h:
@@ -512,6 +511,10 @@ CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o: /home/josh/ray_tracing/src
 /home/josh/ray_tracing/src/TheNextWeek/aabb.h:
 
 /home/josh/ray_tracing/src/TheNextWeek/ray.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+
+/usr/include/c++/13/bits/refwrap.h:
 
 /usr/include/c++/13/bits/cxxabi_forced.h:
 
@@ -553,6 +556,12 @@ CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o: /home/josh/ray_tracing/src
 
 /usr/include/c++/13/debug/debug.h:
 
+/home/josh/ray_tracing/src/TheNextWeek/constant_medium.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/c++/13/bits/stl_algo.h:
+
 /usr/include/c++/13/backward/binders.h:
 
 /usr/include/errno.h:
@@ -592,8 +601,6 @@ CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o: /home/josh/ray_tracing/src
 /usr/include/c++/13/bits/stl_iterator.h:
 
 /usr/include/c++/13/bits/functexcept.h:
-
-/usr/include/c++/13/ios:
 
 /usr/include/c++/13/bits/concept_check.h:
 
@@ -668,10 +675,6 @@ CMakeFiles/TheNextWeek.dir/src/TheNextWeek/main.cc.o: /home/josh/ray_tracing/src
 /usr/include/c++/13/exception:
 
 /usr/include/c++/13/bits/std_thread.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/usr/include/c++/13/bits/stl_algo.h:
 
 /usr/include/c++/13/bits/stl_algobase.h:
 
